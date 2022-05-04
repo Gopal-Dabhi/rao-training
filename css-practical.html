@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div.uper {
+
+        text-transform: lowercase;
+      }
+      div.lower{
+        text-transform: uppercase;
+      }
+      p.format {
+        font-size:10px;
+        color: blue;
+      }
+      a:link {
+        color: dodgerblue;
+        text-decoration: none;
+      }
+      a:active {
+        color: purple;
+      }
+      a:hover {
+        color: green;
+      }
+      a:visited {
+        color: black;
+      }
+      .body-center {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+      }
+      .body-aligncenter{
+          text-align: center;
+      }
+      img {
+        opacity: 0.5;
+      }
+      p.body-txtbox {
+        border: 5px;
+        color: black;
+      }
+      tr:hover{
+          color:darkslategrey;
+          background-color: lightslategray;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="multimedia.html">
+      <ol>
+        <li>
+          Easy paragraph formatting
+          <p class="format">This is a example of text size.</p>
+        </li>
+
+        <li>
+          <div class="uper">
+            change letter case
+            <p>THIS IS A LOWERCASE</p>
+          </div>
+          <div class="lower">
+            <p>this is a lowercase</p>
+          </div>
+        </li>
+        <li>
+          change link colors
+          <a href="practical.html" class="body-lnk"
+            >this is a practical file
+          </a>
+        </li>
+        <li>
+          remove link underline
+          <a href="simple.html" class="body-lnk-2"
+            >simple.html-</a
+          >
+        </li>
+        <li>
+          make a link button
+          <a href="multimedia.html" class="bnt" style="border: 1px solid black"
+            >link button</a
+          >
+        </li>
+        <li>
+          create a text box (give text box to(p) tag)
+          <p style="border: 5px solid black">This is a text box in (p) tag</p>
+        </li>
+        <li>center align align-element
+            <p class="body-aligncenter"> content in center</p>
+        </li>
+        <li>
+            adjust padding
+          <p class="body-center">this is a center example</p>
+        </li>
+    
+        <li>
+        <table border="black" width="100px" class="body-table">
+          <tr>
+            <td>1.</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+          </tr>
+        </table>
+    </li>
+    <li>
+        <img
+          src="3.jpeg"
+          class="body-img"
+          alt="Your borwser does not support img"
+        />
+    </li>
+      </ol>
+      </body>
+</html>
